@@ -5,7 +5,10 @@
 h1, h2{
     text-align: center;
 }
-
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
 .main-nav{
     text-align: center;
     margin: 10px;
