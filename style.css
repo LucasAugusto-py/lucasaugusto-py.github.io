@@ -1,45 +1,56 @@
-*{
-    color: white;
+*, *:before, *:after{
     margin: 0%;
     padding: 0%;
     font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+
 }
-html{
+body{
     background-image: linear-gradient(to right top, #491e9b, #463ca3, #4952a8, #5566a9, #6678a7, #6376a7, #5f75a6, #5c73a6, #405da7, #2646a5, #0d2da0, #050697);
 }
-.main-nav{
+.menu{
+    background-color: rgb(5, 105, 105);
+    height: 75px;
     display: flex;
-    text-align: center;
-    padding: 0px;
-    background-color: rgb(7, 218, 218);
-    
+    justify-content:space-between;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
+    box-shadow: 5px 0px 10px rgba(0,0,0, .6);
 }
-.main-nav li{
+.logo{
+    font-size: 25px;
+    margin: 35px;
     display: inline-block;
+    color: #fff
 }
-.main-nav li a{
-    font-size: 1.5rem;
-    color: white;
+.menu_items{
+  display: flex;
+  list-style: none;
+}
+.menu_items li a{
+    padding: 7px 13px;
     text-decoration: none;
-    display: block;
-    padding: 10px;
+    display: inline-block;
+    justify-content: space-around;
+    color:#fff;
+    text-transform: uppercase;
 }
-.main-nav li a:hover{
-    background-color: blue
-}
-    h1, h2{
+
+
+h1, h2{
+    color: #fff;
     text-align: center;
 }
 p{  
-
+    color: #fff;
     font-size: 1.2rem;
     height: 10rem;
     text-align: center;
 }
 .certificates{
-    list-style: none;
     display: inline-block;
-    padding: 1%;
+    color: #fff;
+    list-style: none; 
 }   
 ul li img{
     height: 15rem;
