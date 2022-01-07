@@ -47,6 +47,11 @@ p{
     height: 10rem;
     text-align: center;
 }
+.container-p{
+    min-width: 600px;
+    max-height: 600px;
+    justify-content: center;
+}
 .certificates{
     display: inline-block;
     color: #fff;
