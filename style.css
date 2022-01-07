@@ -1,6 +1,10 @@
 *{
-    margin:0%;
+    
+    margin: 0%;
     padding: 0%;
+}
+html{
+    background-image: linear-gradient(to right top, #491e9b, #463ca3, #4952a8, #5566a9, #6678a7, #6376a7, #5f75a6, #5c73a6, #405da7, #2646a5, #0d2da0, #050697);
 }
 .main-nav{
     text-align: center;
@@ -27,7 +31,7 @@
     h1, h2{
     text-align: center;
 }
-p{
+p{  
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     height: 10rem;
@@ -40,6 +44,6 @@ p{
 }   
 ul li img{
     height: 15rem;
-    border-radius: 4rem;
+    border-radius: 2rem;
     border: solid black;
 }
